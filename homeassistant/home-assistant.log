@@ -17,3 +17,9 @@
 2019-08-01 06:33:57 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
 2019-08-01 06:35:18 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
 2019-08-01 06:35:18 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
+2019-08-01 06:36:39 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:36:39 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
+2019-08-01 06:38:00 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:38:00 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
+2019-08-01 06:39:21 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:39:21 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
