@@ -1,0 +1,4 @@
+<?php
+echo "# ZeuS Tracker has been discontinued on Jul 8th, 2019";
+exit();
+?>

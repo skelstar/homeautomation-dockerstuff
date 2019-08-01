@@ -1,0 +1,125 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.sean",
+                "name": null,
+                "platform": "person",
+                "unique_id": "a69cf3772c5e42fa8f98051da25e442a"
+            },
+            {
+                "config_entry_id": "fbfc23057e18462098625aa6267cca49",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.home",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "86ca6cd71b234462ab13eef70eb8ed78",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.vibration_sensor",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:03:12:e9:bc-01-0101"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "2d85a15838284da9a144e48103861c30",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.motion_bench",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:03:20:26:a9-01-0406"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "e48f28ffd5f4460a8771e0deb0da8a11",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.motion_door",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:02:fd:56:d4-01-0406"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "5b9fa690305b497c952ce2909a08f3bc",
+                "disabled_by": null,
+                "entity_id": "sensor.daylight",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:21:2e:ff:ff:04:82:1b-01"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "e48f28ffd5f4460a8771e0deb0da8a11",
+                "disabled_by": null,
+                "entity_id": "sensor.motion_door",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:02:fd:56:d4-01-0400"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "5d6688425a8845e3aa140d5995ddb8ab",
+                "disabled_by": null,
+                "entity_id": "sensor.mi_magic_cube_battery_level",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:02:89:d7:0a-03-000c"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "2d85a15838284da9a144e48103861c30",
+                "disabled_by": null,
+                "entity_id": "sensor.motion_bench",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:03:20:26:a9-01-0400"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "5d6688425a8845e3aa140d5995ddb8ab",
+                "disabled_by": null,
+                "entity_id": "sensor.switch_8_battery_level",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:02:89:d7:0a-02-0012"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "d49344ab646840ac919eed57b5a9c7bf",
+                "disabled_by": null,
+                "entity_id": "light.light_1",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:03:2c:c4:62-01"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "f52609e194c244d0a544bef0acc0e040",
+                "disabled_by": null,
+                "entity_id": "light.light_3",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:03:2c:c3:d7-01"
+            },
+            {
+                "config_entry_id": "b70da6b76536478b951e95eeb795970d",
+                "device_id": "90cb93552da444e9918e1e496071f2e2",
+                "disabled_by": null,
+                "entity_id": "light.light_2",
+                "name": null,
+                "platform": "deconz",
+                "unique_id": "00:15:8d:00:02:d7:39:c3-01"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

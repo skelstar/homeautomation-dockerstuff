@@ -1,0 +1,19 @@
+2019-08-01 06:29:38 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:29:38 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 5 seconds.
+2019-08-01 06:29:46 WARNING (MainThread) [homeassistant.setup] Setup of xiaomi_aqara is taking over 10 seconds.
+2019-08-01 06:30:01 ERROR (SyncWorker_7) [homeassistant.components.xiaomi_aqara] No gateway discovered
+2019-08-01 06:30:01 ERROR (MainThread) [homeassistant.setup] Setup failed for xiaomi_aqara: Integration failed to initialize.
+2019-08-01 06:30:02 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:30:02 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 10 seconds.
+2019-08-01 06:30:13 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:30:13 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 20 seconds.
+2019-08-01 06:30:34 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:30:34 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 40 seconds.
+2019-08-01 06:31:15 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:31:15 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
+2019-08-01 06:32:36 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:32:36 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
+2019-08-01 06:33:57 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:33:57 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
+2019-08-01 06:35:18 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
+2019-08-01 06:35:18 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.

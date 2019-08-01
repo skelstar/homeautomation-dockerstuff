@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-08-01T05:30:01.468758+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Sean",
+                    "id": "a69cf3772c5e42fa8f98051da25e442a",
+                    "source": "person.sean",
+                    "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
+                },
+                "context": {
+                    "id": "bae6818527074b228535e987735c0eb6",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.sean",
+                "last_changed": "2019-08-01T05:29:41.976642+00:00",
+                "last_updated": "2019-08-01T05:29:41.976642+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

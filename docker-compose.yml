@@ -1,0 +1,107 @@
+version: '2'
+
+services:
+
+  portainer:
+    image: portainer/portainer
+    container_name: portainer
+    command: -H unix:///var/run/docker.sock
+    restart: unless-stopped
+    ports:
+    - 9000:9000
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+    - ${DOCKERSTUFF_PATH}/portainer:/data
+    
+  nodered:
+    image: nodered/node-red-docker:rpi
+    container_name: nodered
+    restart: unless-stopped
+    volumes:
+    - ${DOCKERSTUFF_PATH}/nodered/data:/data
+    ports:
+    - 1880:1880
+    - 9898:9898/udp
+    depends_on:
+    - mqtt
+    
+  mqtt:
+    image: eclipse-mosquitto
+    container_name: mqtt
+    restart: unless-stopped
+    ports: 
+    - 1883:1883 
+    - 9001:9001 
+    volumes:
+    - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/config
+    - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/data    
+    - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/log
+    
+  homeassistant:
+    container_name: home-assistant
+    image: homeassistant/raspberrypi3-homeassistant
+    network_mode: host
+    volumes:
+    - ${DOCKERSTUFF_PATH}/homeassistant:/config
+    - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+
+  # nginx:
+  #   image: linuxserver/nginx
+  #   container_name: nginx
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #     - TZ=Pacific/Auckland
+  #   volumes:
+  #   - ${DOCKERSTUFF_PATH}/nginx:/config
+  #   ports:
+  #   - 80:80
+  #   - 443:443
+  #   restart: unless-stopped
+
+  #pihole:
+  #  container_name: pihole
+  #  image: pihole/pihole:latest
+  #  # For DHCP it is recommended to remove these ports and instead add: network_mode: "host"
+  #  ports:
+  #  - "53:53/tcp"
+  #  - "53:53/udp"
+  #  - "67:67/udp"
+  #  - "80:80/tcp"
+  #  - "443:443/tcp"
+  #  environment:
+  #    TZ: 'Pacific/Auckland'
+  #    WEBPASSWORD: 'ec11225f87'
+  #  volumes:
+  #  - /mnt/dockerstuff/config/pihole:/etc/pihole
+  #  #- /etc-dnsmasq.d/:/etc/dnsmasq.d/'
+  #  # run `touch /var/log/pihole.log` first unless you like errors
+  #  - /var/log/pihole:/var/log/pihole
+  #  dns:
+  #  - 127.0.0.1
+  #  - 1.1.1.1
+  #  # Recommended but not required (DHCP needs NET_ADMIN)
+  #  #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
+  #  #cap_add:
+  #  #  - NET_ADMIN
+  #  restart: unless-stopped
+
+  # https://hub.docker.com/r/marthoc/deconz/
+  deconz:
+    image: marthoc/deconz
+    container_name: deconz
+    network_mode: host
+    restart: always
+    volumes:
+    - ${DOCKERSTUFF_PATH}/deconz:/root/.local/share/dresden-elektronik/deCONZ
+    devices:
+    - /dev/ttyACM0
+    environment:
+    - DECONZ_WEB_PORT=80
+    - DECONZ_WS_PORT=443
+    - DEBUG_INFO=1
+    - DEBUG_APS=0
+    - DEBUG_ZCL=0
+    - DEBUG_ZDP=0
+    - DEBUG_OTAU=0

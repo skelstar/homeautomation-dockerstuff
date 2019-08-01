@@ -1,0 +1,53 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "fbfc23057e18462098625aa6267cca49",
+                "options": {},
+                "source": "onboarding",
+                "title": "Home",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "api_key": "CBEC4C6386",
+                    "bridgeid": "00212EFFFF04821B",
+                    "host": "192.168.1.105",
+                    "port": 8080
+                },
+                "domain": "deconz",
+                "entry_id": "b70da6b76536478b951e95eeb795970d",
+                "options": {
+                    "allow_clip_sensor": false,
+                    "allow_deconz_groups": true,
+                    "master": true
+                },
+                "source": "ssdp",
+                "title": "deCONZ-00212EFFFF04821B",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "192.168.1.105",
+                    "discovery": true,
+                    "port": 1883
+                },
+                "domain": "mqtt",
+                "entry_id": "cd7a48a67d834cb48f33947638e09822",
+                "options": {},
+                "source": "user",
+                "title": "192.168.1.105",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}
