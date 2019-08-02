@@ -9,6 +9,13 @@
                 },
                 "id": "ef24ef9f0b3c4e1e917b40270a26c973",
                 "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "legacy_api_password",
+                "data": {},
+                "id": "61856f201894471eaccc7ec3140e5180",
+                "user_id": "07782059abab4949af58972fbefd66e8"
             }
         ],
         "groups": [
@@ -34,7 +41,7 @@
                 "created_at": "2019-07-18T08:07:36.614918+00:00",
                 "id": "c7f88fae724b4dedaa4e5b2a2e43d2fb",
                 "jwt_key": "1cb712136501fdae2db1cd79a25ebd77d1ee5e612527accaf0feffe84de266f00f55472e493f68f010938fedde19b81eb79b25f46503eabefb40363ca1591b79",
-                "last_used_at": "2019-07-28T05:10:56.022194+00:00",
+                "last_used_at": "2019-08-02T22:11:08.739242+00:00",
                 "last_used_ip": "192.168.1.182",
                 "token": "4d85a664f2763b9c398eec7c6cb3da55dd09223d49da9651e0d548bddf000fefbd1b6aeaf0d0b1d0231e1ec631fb5187b530d55507867d26442daae9147d798f",
                 "token_type": "normal",
@@ -59,12 +66,12 @@
                 "client_icon": null,
                 "client_id": "http://192.168.1.105:8123/",
                 "client_name": null,
-                "created_at": "2019-07-31T07:51:38.612528+00:00",
-                "id": "2da92e73c09d4154b7c5b76673ca3ff0",
-                "jwt_key": "ce38fb230af4175a163507379329b144b2a0159e58b6dfec8348a6a8f7305d1c9927d29ce6c7584655c4a6f4c62667fdb84ad1371bd069c1dd3514a4a7b24bc7",
-                "last_used_at": "2019-07-31T07:51:38.612831+00:00",
+                "created_at": "2019-08-02T04:27:21.163751+00:00",
+                "id": "09686f50a1174e5fa77dd61ea7cda5f3",
+                "jwt_key": "099986a403cf37b2caa3d052e7f0d54f5f6d3bd80fb7cc7154e0a84e27a602c026f7e8ff32f41521b42f95b3661849d00298ac83f331ea946ccc36ae67753566",
+                "last_used_at": "2019-08-02T19:27:29.041997+00:00",
                 "last_used_ip": "192.168.1.83",
-                "token": "96cddfcf5cad63aa38f60866a138f540a1894b5e166f95efd9c566bf3d202f95e2ca11f60d498640d282b54f0da0f2965ef6da7ed09a09c1bc3d0f99ec229fbe",
+                "token": "fb87307bf1ccdc1bea11cd2b1c5f13d864809d1dcf07631b5e3805b81822e8df216f649f1ff39c96af006ed6e91a2fc3eced3a7b290ceda824c89619e7b0ab3b",
                 "token_type": "normal",
                 "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
             }
@@ -88,6 +95,16 @@
                 "is_active": true,
                 "is_owner": true,
                 "name": "Sean",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "07782059abab4949af58972fbefd66e8",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Legacy API password user",
                 "system_generated": false
             }
         ]

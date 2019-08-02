@@ -6,7 +6,9 @@
                 {
                     "badges": [
                         "person.sean",
-                        "sun.sun"
+                        "sun.sun",
+                        "device_tracker.life360_leila",
+                        "device_tracker.life360_sean_kelly"
                     ],
                     "cards": [
                         {

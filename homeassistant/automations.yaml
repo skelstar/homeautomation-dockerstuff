@@ -1,1 +1,22 @@
-[]
+- id: '1564780463482'
+  alias: Leila leaving home
+  trigger:
+  - entity_id: device_tracker.life360_leila
+    from: home
+    platform: state
+    to: not home
+  condition: []
+  action:
+  - service: notify.notify
+    data:
+      message: Leila left home
+- id: test
+  alias: Test MQTT
+  trigger:
+  - platform: mqtt
+    topic: /device/test
+  condition: []
+  action:
+  - data:
+      topic: home-assistant/light/1/command
+    service: mqtt.publish

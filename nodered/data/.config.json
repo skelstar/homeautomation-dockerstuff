@@ -912,7 +912,7 @@
   "node-red-contrib-deconz": {
    "name": "node-red-contrib-deconz",
    "version": "0.12.10",
-   "local": false,
+   "local": true,
    "nodes": {
     "in": {
      "name": "in",

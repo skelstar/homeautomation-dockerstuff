@@ -27,42 +27,6 @@
                 "name": null,
                 "platform": "person",
                 "unique_id": "923dd0d062754d20918647b28c03f70a"
-            },
-            {
-                "config_entry_id": "aa8ecbbb04194652a963796b42f9616a",
-                "device_id": "abf18c64854d4d7e90b3620ecda25259",
-                "disabled_by": null,
-                "entity_id": "sensor.daylight_2",
-                "name": null,
-                "platform": "deconz",
-                "unique_id": "00:21:2e:ff:ff:04:82:1b-01"
-            },
-            {
-                "config_entry_id": "aa8ecbbb04194652a963796b42f9616a",
-                "device_id": "6cdaf416b13a419389ff6ab9378d52b7",
-                "disabled_by": null,
-                "entity_id": "sensor.switch_2_battery_level",
-                "name": null,
-                "platform": "deconz",
-                "unique_id": "00:15:8d:00:02:89:d7:0a-02-0012"
-            },
-            {
-                "config_entry_id": "aa8ecbbb04194652a963796b42f9616a",
-                "device_id": "6cdaf416b13a419389ff6ab9378d52b7",
-                "disabled_by": null,
-                "entity_id": "sensor.switch_3_battery_level",
-                "name": null,
-                "platform": "deconz",
-                "unique_id": "00:15:8d:00:02:89:d7:0a-03-000c"
-            },
-            {
-                "config_entry_id": "aa8ecbbb04194652a963796b42f9616a",
-                "device_id": "f92ef1379b2544cea0a861d13d052a1c",
-                "disabled_by": null,
-                "entity_id": "binary_sensor.vibration_4",
-                "name": null,
-                "platform": "deconz",
-                "unique_id": "00:15:8d:00:03:12:e9:bc-01-0101"
             }
         ]
     },

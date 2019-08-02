@@ -16,25 +16,6 @@
             {
                 "connection_class": "local_push",
                 "data": {
-                    "api_key": "CBEC4C6386",
-                    "bridgeid": "00212EFFFF04821B",
-                    "host": "192.168.1.105",
-                    "port": 8080
-                },
-                "domain": "deconz",
-                "entry_id": "b70da6b76536478b951e95eeb795970d",
-                "options": {
-                    "allow_clip_sensor": false,
-                    "allow_deconz_groups": true,
-                    "master": true
-                },
-                "source": "ssdp",
-                "title": "deCONZ-00212EFFFF04821B",
-                "version": 1
-            },
-            {
-                "connection_class": "local_push",
-                "data": {
                     "broker": "192.168.1.105",
                     "discovery": true,
                     "port": 1883
@@ -44,6 +25,20 @@
                 "options": {},
                 "source": "user",
                 "title": "192.168.1.105",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "authorization": "Bearer MTZjNzYwMDUtZDZkOC00NDY4LWFkMGEtZTUwOGY2N2M0ZTZh",
+                    "password": "ec11225F87",
+                    "username": "skelstar@gmail.com"
+                },
+                "domain": "life360",
+                "entry_id": "df5a85011f684a1a9bbc191a0013a09a",
+                "options": {},
+                "source": "user",
+                "title": "skelstar@gmail.com",
                 "version": 1
             }
         ]

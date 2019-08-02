@@ -1,7 +1,66 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-02T19:13:27.003287+00:00",
+            "last_seen": "2019-08-02T22:12:46.531071+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Sean",
+                    "id": "a69cf3772c5e42fa8f98051da25e442a",
+                    "source": "person.sean",
+                    "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
+                },
+                "context": {
+                    "id": "8c6077fe473f4363acea5cad9558124b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.sean",
+                "last_changed": "2019-08-02T22:12:41.892974+00:00",
+                "last_updated": "2019-08-02T22:12:41.892974+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2019-08-02T22:12:46.531071+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Leila leaving home",
+                    "id": "1564780463482",
+                    "last_triggered": "2019-08-02T21:54:40.337441+00:00"
+                },
+                "context": {
+                    "id": "f85acf4b150244e19bb5c92000bda2e0",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.leila_leaving_home",
+                "last_changed": "2019-08-02T22:12:41.894206+00:00",
+                "last_updated": "2019-08-02T22:12:41.894206+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-02T21:40:21.553557+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Sean leaving home",
+                    "id": "1564780463482",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "4a3024eaeb35440c8f6562c9cf8dcb8a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.sean_leaving_home",
+                "last_changed": "2019-08-02T21:26:53.093562+00:00",
+                "last_updated": "2019-08-02T21:26:53.093562+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-02T20:38:39.702918+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Leila leaving Daycare",
@@ -19,7 +78,7 @@
             }
         },
         {
-            "last_seen": "2019-08-02T19:13:27.003287+00:00",
+            "last_seen": "2019-08-02T20:38:39.702918+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -39,26 +98,6 @@
                 "last_changed": "2019-08-02T06:15:02.994620+00:00",
                 "last_updated": "2019-08-02T19:09:38.593176+00:00",
                 "state": "home"
-            }
-        },
-        {
-            "last_seen": "2019-08-02T19:13:27.003287+00:00",
-            "state": {
-                "attributes": {
-                    "editable": true,
-                    "friendly_name": "Sean",
-                    "id": "a69cf3772c5e42fa8f98051da25e442a",
-                    "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
-                },
-                "context": {
-                    "id": "6727db000540422a9e4cb4d95b88001f",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "person.sean",
-                "last_changed": "2019-08-02T06:15:02.995497+00:00",
-                "last_updated": "2019-08-02T06:15:02.995497+00:00",
-                "state": "unknown"
             }
         }
     ],

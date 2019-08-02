@@ -1,27 +1,12 @@
-2019-08-01 06:29:38 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:29:38 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 5 seconds.
-2019-08-01 06:29:46 WARNING (MainThread) [homeassistant.setup] Setup of xiaomi_aqara is taking over 10 seconds.
-2019-08-01 06:30:01 ERROR (SyncWorker_7) [homeassistant.components.xiaomi_aqara] No gateway discovered
-2019-08-01 06:30:01 ERROR (MainThread) [homeassistant.setup] Setup failed for xiaomi_aqara: Integration failed to initialize.
-2019-08-01 06:30:02 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:30:02 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 10 seconds.
-2019-08-01 06:30:13 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:30:13 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 20 seconds.
-2019-08-01 06:30:34 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:30:34 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 40 seconds.
-2019-08-01 06:31:15 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:31:15 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
-2019-08-01 06:32:36 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:32:36 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
-2019-08-01 06:33:57 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:33:57 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
-2019-08-01 06:35:18 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:35:18 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
-2019-08-01 06:36:39 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:36:39 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
-2019-08-01 06:38:00 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:38:00 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
-2019-08-01 06:39:21 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:39:21 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
-2019-08-01 06:40:42 ERROR (MainThread) [.] Error connecting to deCONZ gateway at 192.168.1.105
-2019-08-01 06:40:42 WARNING (MainThread) [homeassistant.config_entries] Config entry for deconz not ready yet. Retrying in 80 seconds.
+2019-08-02 23:12:34 WARNING (MainThread) [homeassistant.components.http] Configuring api_password via the http integration has been deprecated. Use the legacy api password auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#legacy-api-password
+2019-08-02 23:12:34 WARNING (MainThread) [homeassistant.components.http.auth] legacy_api_password support has been enabled.
+2019-08-02 23:12:38 WARNING (MainThread) [homeassistant.components.mqtt] Data in your config entry is going to override your configuration.yaml: {'broker': '192.168.1.105', 'discovery': True, 'port': 1883}
+2019-08-02 23:15:07 WARNING (MainThread) [homeassistant.components.http] Configuring api_password via the http integration has been deprecated. Use the legacy api password auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#legacy-api-password
+2019-08-02 23:15:28 WARNING (MainThread) [homeassistant.components.http] Configuring api_password via the http integration has been deprecated. Use the legacy api password auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#legacy-api-password
+2019-08-02 23:16:13 WARNING (MainThread) [homeassistant.components.http] Configuring api_password via the http integration has been deprecated. Use the legacy api password auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#legacy-api-password
+2019-08-02 23:16:24 WARNING (MainThread) [homeassistant.components.http] Configuring api_password via the http integration has been deprecated. Use the legacy api password auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#legacy-api-password
+2019-08-02 23:16:38 ERROR (MainThread) [homeassistant.components.automation] Error while executing automation automation.test_mqtt. Service not found for call_service at pos 1: Unable to find service bedroomlights/turnon
+2019-08-02 23:17:05 ERROR (MainThread) [homeassistant.components.automation] Error while executing automation automation.test_mqtt. Service not found for call_service at pos 1: Unable to find service bedroomlights/turnon
+2019-08-02 23:17:36 WARNING (MainThread) [homeassistant.components.http] Configuring api_password via the http integration has been deprecated. Use the legacy api password auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#legacy-api-password
+2019-08-02 23:20:52 WARNING (MainThread) [homeassistant.components.http] Configuring api_password via the http integration has been deprecated. Use the legacy api password auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#legacy-api-password
+2019-08-02 23:21:40 ERROR (MainThread) [homeassistant.components.automation] Error while executing automation automation.test_mqtt. Invalid data for call_service at pos 1: extra keys not allowed @ data['topic']
