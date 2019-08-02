@@ -1,23 +1,63 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-01T05:30:01.468758+00:00",
+            "last_seen": "2019-08-02T19:13:27.003287+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Leila leaving Daycare",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "11b4447e500b43ffabd55bf1329f0264",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.leila_leaving_daycare",
+                "last_changed": "2019-08-02T06:12:34.600652+00:00",
+                "last_updated": "2019-08-02T06:12:34.600652+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-02T19:13:27.003287+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Leila",
+                    "gps_accuracy": 15,
+                    "id": "923dd0d062754d20918647b28c03f70a",
+                    "latitude": -41.2951234,
+                    "longitude": 174.7653252,
+                    "source": "device_tracker.life360_leila"
+                },
+                "context": {
+                    "id": "918ed47ce3654e8da3cc364c48b2aafa",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.leila",
+                "last_changed": "2019-08-02T06:15:02.994620+00:00",
+                "last_updated": "2019-08-02T19:09:38.593176+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-08-02T19:13:27.003287+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Sean",
                     "id": "a69cf3772c5e42fa8f98051da25e442a",
-                    "source": "person.sean",
                     "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
                 },
                 "context": {
-                    "id": "bae6818527074b228535e987735c0eb6",
+                    "id": "6727db000540422a9e4cb4d95b88001f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.sean",
-                "last_changed": "2019-08-01T05:29:41.976642+00:00",
-                "last_updated": "2019-08-01T05:29:41.976642+00:00",
+                "last_changed": "2019-08-02T06:15:02.995497+00:00",
+                "last_updated": "2019-08-02T06:15:02.995497+00:00",
                 "state": "unknown"
             }
         }

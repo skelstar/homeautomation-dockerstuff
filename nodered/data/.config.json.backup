@@ -538,7 +538,7 @@
   "node-red-contrib-mdashboard": {
    "name": "node-red-contrib-mdashboard",
    "version": "0.1.17",
-   "local": false,
+   "local": true,
    "nodes": {
     "mui_base": {
      "name": "mui_base",
@@ -755,7 +755,7 @@
   "node-red-contrib-ui_j": {
    "name": "node-red-contrib-ui_j",
    "version": "1.2.19",
-   "local": false,
+   "local": true,
    "nodes": {
     "ui_button": {
      "name": "ui_button",

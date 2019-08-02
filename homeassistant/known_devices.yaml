@@ -1,0 +1,16 @@
+
+life360_sean_kelly:
+  hide_if_away: false
+  icon:
+  mac:
+  name: life360 sean kelly
+  picture: https://www.life360.com/img/user_images/fb45bf63-de9e-45cd-b47d-c3e33d73c9ef/3291a114-8c0d-4b2e-953e-6b7fabfe9aeb.png?fd=2
+  track: true
+
+life360_leila:
+  hide_if_away: false
+  icon:
+  mac:
+  name: life360 leila
+  picture:
+  track: true

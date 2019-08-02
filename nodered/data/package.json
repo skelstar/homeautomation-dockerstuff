@@ -4,6 +4,7 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
+        "node-red-contrib-deconz": "~0.12.10",
         "node-red-contrib-mdashboard": "~0.1.17",
         "node-red-contrib-ui_j": "~1.2.19"
     }

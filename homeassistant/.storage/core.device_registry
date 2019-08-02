@@ -4,7 +4,7 @@
             {
                 "area_id": "4ce0d01239d84eff872ccd2b786f165b",
                 "config_entries": [
-                    "b70da6b76536478b951e95eeb795970d"
+                    "aa8ecbbb04194652a963796b42f9616a"
                 ],
                 "connections": [
                     [
@@ -12,7 +12,7 @@
                         "b8:27:eb:53:dc:e0"
                     ]
                 ],
-                "id": "3696bec78719486a942de8e81ab19fbd",
+                "id": "bc2666f5ab93437e996fc8d526da06be",
                 "identifiers": [
                     [
                         "deconz",
@@ -21,90 +21,15 @@
                 ],
                 "manufacturer": "Dresden Elektronik",
                 "model": "deCONZ",
-                "name": "ConBee",
+                "name": "Phoscon-GW",
                 "name_by_user": null,
                 "sw_version": "2.5.66",
                 "via_device_id": null
             },
             {
-                "area_id": "4ce0d01239d84eff872ccd2b786f165b",
+                "area_id": null,
                 "config_entries": [
-                    "b70da6b76536478b951e95eeb795970d"
-                ],
-                "connections": [
-                    [
-                        "zigbee",
-                        "00:15:8d:00:03:12:e9:bc"
-                    ]
-                ],
-                "id": "86ca6cd71b234462ab13eef70eb8ed78",
-                "identifiers": [
-                    [
-                        "deconz",
-                        "00:15:8d:00:03:12:e9:bc"
-                    ]
-                ],
-                "manufacturer": "LUMI",
-                "model": "lumi.vibration.aq1",
-                "name": "Vibration Sensor",
-                "name_by_user": null,
-                "sw_version": "20180130",
-                "via_device_id": "3696bec78719486a942de8e81ab19fbd"
-            },
-            {
-                "area_id": "4ce0d01239d84eff872ccd2b786f165b",
-                "config_entries": [
-                    "b70da6b76536478b951e95eeb795970d"
-                ],
-                "connections": [
-                    [
-                        "zigbee",
-                        "00:15:8d:00:03:20:26:a9"
-                    ]
-                ],
-                "id": "2d85a15838284da9a144e48103861c30",
-                "identifiers": [
-                    [
-                        "deconz",
-                        "00:15:8d:00:03:20:26:a9"
-                    ]
-                ],
-                "manufacturer": "LUMI",
-                "model": "lumi.sensor_motion.aq2",
-                "name": "Motion (Bench)",
-                "name_by_user": null,
-                "sw_version": null,
-                "via_device_id": "3696bec78719486a942de8e81ab19fbd"
-            },
-            {
-                "area_id": "4ce0d01239d84eff872ccd2b786f165b",
-                "config_entries": [
-                    "b70da6b76536478b951e95eeb795970d"
-                ],
-                "connections": [
-                    [
-                        "zigbee",
-                        "00:15:8d:00:02:fd:56:d4"
-                    ]
-                ],
-                "id": "e48f28ffd5f4460a8771e0deb0da8a11",
-                "identifiers": [
-                    [
-                        "deconz",
-                        "00:15:8d:00:02:fd:56:d4"
-                    ]
-                ],
-                "manufacturer": "LUMI",
-                "model": "lumi.sensor_motion.aq2",
-                "name": "Motion (Door)",
-                "name_by_user": null,
-                "sw_version": "20170627",
-                "via_device_id": "3696bec78719486a942de8e81ab19fbd"
-            },
-            {
-                "area_id": "4ce0d01239d84eff872ccd2b786f165b",
-                "config_entries": [
-                    "b70da6b76536478b951e95eeb795970d"
+                    "aa8ecbbb04194652a963796b42f9616a"
                 ],
                 "connections": [
                     [
@@ -112,7 +37,7 @@
                         "00:21:2e:ff:ff:04:82:1b"
                     ]
                 ],
-                "id": "5b9fa690305b497c952ce2909a08f3bc",
+                "id": "abf18c64854d4d7e90b3620ecda25259",
                 "identifiers": [
                     [
                         "deconz",
@@ -124,12 +49,12 @@
                 "name": "Daylight",
                 "name_by_user": null,
                 "sw_version": "1.0",
-                "via_device_id": "3696bec78719486a942de8e81ab19fbd"
+                "via_device_id": "bc2666f5ab93437e996fc8d526da06be"
             },
             {
-                "area_id": "4ce0d01239d84eff872ccd2b786f165b",
+                "area_id": null,
                 "config_entries": [
-                    "b70da6b76536478b951e95eeb795970d"
+                    "aa8ecbbb04194652a963796b42f9616a"
                 ],
                 "connections": [
                     [
@@ -137,7 +62,7 @@
                         "00:15:8d:00:02:89:d7:0a"
                     ]
                 ],
-                "id": "5d6688425a8845e3aa140d5995ddb8ab",
+                "id": "6cdaf416b13a419389ff6ab9378d52b7",
                 "identifiers": [
                     [
                         "deconz",
@@ -146,85 +71,35 @@
                 ],
                 "manufacturer": "LUMI",
                 "model": "lumi.sensor_cube.aqgl01",
-                "name": "Switch 8",
+                "name": "Switch 3",
                 "name_by_user": null,
                 "sw_version": null,
-                "via_device_id": "3696bec78719486a942de8e81ab19fbd"
+                "via_device_id": "bc2666f5ab93437e996fc8d526da06be"
             },
             {
-                "area_id": "4ce0d01239d84eff872ccd2b786f165b",
+                "area_id": null,
                 "config_entries": [
-                    "b70da6b76536478b951e95eeb795970d"
+                    "aa8ecbbb04194652a963796b42f9616a"
                 ],
                 "connections": [
                     [
                         "zigbee",
-                        "00:15:8d:00:03:2c:c4:62"
+                        "00:15:8d:00:03:12:e9:bc"
                     ]
                 ],
-                "id": "d49344ab646840ac919eed57b5a9c7bf",
+                "id": "f92ef1379b2544cea0a861d13d052a1c",
                 "identifiers": [
                     [
                         "deconz",
-                        "00:15:8d:00:03:2c:c4:62"
+                        "00:15:8d:00:03:12:e9:bc"
                     ]
                 ],
                 "manufacturer": "LUMI",
-                "model": "lumi.light.aqcn02",
-                "name": "Light 1",
+                "model": "lumi.vibration.aq1",
+                "name": "Vibration 4",
                 "name_by_user": null,
-                "sw_version": "11-22-2018",
-                "via_device_id": "3696bec78719486a942de8e81ab19fbd"
-            },
-            {
-                "area_id": "4ce0d01239d84eff872ccd2b786f165b",
-                "config_entries": [
-                    "b70da6b76536478b951e95eeb795970d"
-                ],
-                "connections": [
-                    [
-                        "zigbee",
-                        "00:15:8d:00:03:2c:c3:d7"
-                    ]
-                ],
-                "id": "f52609e194c244d0a544bef0acc0e040",
-                "identifiers": [
-                    [
-                        "deconz",
-                        "00:15:8d:00:03:2c:c3:d7"
-                    ]
-                ],
-                "manufacturer": "LUMI",
-                "model": "lumi.light.aqcn02",
-                "name": "Light 3",
-                "name_by_user": null,
-                "sw_version": "11-22-2018",
-                "via_device_id": "3696bec78719486a942de8e81ab19fbd"
-            },
-            {
-                "area_id": "4ce0d01239d84eff872ccd2b786f165b",
-                "config_entries": [
-                    "b70da6b76536478b951e95eeb795970d"
-                ],
-                "connections": [
-                    [
-                        "zigbee",
-                        "00:15:8d:00:02:d7:39:c3"
-                    ]
-                ],
-                "id": "90cb93552da444e9918e1e496071f2e2",
-                "identifiers": [
-                    [
-                        "deconz",
-                        "00:15:8d:00:02:d7:39:c3"
-                    ]
-                ],
-                "manufacturer": "LUMI",
-                "model": "lumi.light.aqcn02",
-                "name": "Light 2",
-                "name_by_user": null,
-                "sw_version": "11-22-2018",
-                "via_device_id": "3696bec78719486a942de8e81ab19fbd"
+                "sw_version": null,
+                "via_device_id": "bc2666f5ab93437e996fc8d526da06be"
             }
         ]
     },
