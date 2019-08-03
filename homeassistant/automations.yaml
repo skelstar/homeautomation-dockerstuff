@@ -1,15 +1,16 @@
-- id: '1564780463482'
+- id: leila_leaving_home
   alias: Leila leaving home
   trigger:
   - entity_id: device_tracker.life360_leila
-    from: home
+    from: 'on'
     platform: state
-    to: not home
+    to: 'off'
   condition: []
   action:
-  - service: notify.notify
+  - service: mqtt.publish
     data:
-      message: Leila left home
+      topic: /homeassistant/life360
+      payload_template: '{"event" : "leila leaving home"}'
 - id: test
   alias: Test MQTT
   trigger:
@@ -19,4 +20,18 @@
   action:
   - data:
       topic: home-assistant/light/1/command
+      payload: 'on'
+    service: mqtt.publish
+- id: leila_life360_event
+  alias: Leila Life360 Event
+  trigger:
+  - entity_id: device_tracker.life360_leila
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition: []
+  action:
+  - data:
+      payload_template: '{ "event" : "leila leaving home" , "from" : "{{trigger.from_state.state}}"}'
+      topic: /homeassistant/life360
     service: mqtt.publish

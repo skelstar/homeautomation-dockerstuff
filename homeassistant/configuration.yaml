@@ -24,14 +24,14 @@ http:
 
 mqtt:
   client_id: my_mqtt
-  broker: 192.168.1.105 #:1883
+  broker: 192.168.1.105
 
-mqtt mqtt_test:
-  - platform: mqtt
-    name: 'mqtt test'
-    state_topic: "/device/test"
-    state_on: "on"
-    state_off: "off"
+# mqtt mqtt_test:
+#   - platform: mqtt
+#     name: 'mqtt test'
+#     state_topic: "/device/test"
+#     state_on: "on"
+#     state_off: "off"
 
 device_tracker:
   - platform: life360
