@@ -1,6 +1,5 @@
 default_config:
-#  tts:
-#    - platform: google_translate
+
 homeassistant:
   # Location required to calculate the time the sun rises and sets
   latitude: -41.295160
@@ -18,20 +17,13 @@ homeassistant:
 # -script: !include scripts.yaml
 # discovery:
 
-http:
-  api_password: dietpi
-
+# http:
+#   api_password: dietpi
+# WARNING (MainThread) [homeassistant.components.http] Configuring api_password via the http integration has been deprecated. Use the legacy api password auth provider instead. For instructions, see https://www.home-assistant.io/docs/authentication/providers/#legacy-api-password
 
 mqtt:
   client_id: my_mqtt
   broker: 192.168.1.105
-
-# mqtt mqtt_test:
-#   - platform: mqtt
-#     name: 'mqtt test'
-#     state_topic: "/device/test"
-#     state_on: "on"
-#     state_off: "off"
 
 device_tracker:
   - platform: life360
@@ -41,51 +33,9 @@ device_tracker:
     circles:
       include: [Family]
 
-zone:
-  - name: Home
-    latitude: -41.295160
-    longitude: 174.765340
-    radius: 250
-    icon: mdi:school
-
-  - name: Daycare
-    latitude: -41.288180
-    longitude: 174.777670
-    radius: 100
-    icon: mdi:home
-
-  - name: Outside Liquor King
-    latitude: -41.293399
-    longitude: 174.773497
-    radius: 100
-
-# configuration.yaml entry
+zone: !include zones.yaml
 
 automation: !include automations.yaml
-#automation:
-  # - alias: Leila leaving Daycare
-  #   trigger:
-  #     platform: state
-  #     entity_id: device_tracker.life360_leila
-  #     from: 'Daycare'
-  #     to: 'no_home'
-  #   action:
-  #     - service: notify.notify
-  #       data:
-  #         message: Leila left Daycare
-
-  # - alias: Bench motion detector turns light on
-  #   trigger:
-  #     - platform: event
-  #       entity_id: binary_sensor.motion_bench
-  #       from: 'off'
-  #       to: 'on'
-  #   action:
-  #     - service: bedroomlights.turnon
-  #       data:
-
-
-
 
 # deconz key E09E33DE20
 

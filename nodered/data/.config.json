@@ -983,6 +983,25 @@
      "file": "/data/node_modules/node-red-contrib-deconz/deconz.js"
     }
    }
+  },
+  "node-red-node-pushbullet": {
+   "name": "node-red-node-pushbullet",
+   "version": "0.0.14",
+   "local": false,
+   "nodes": {
+    "pushbullet": {
+     "name": "pushbullet",
+     "types": [
+      "pushbullet-config",
+      "pushbullet",
+      "pushbullet in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-pushbullet",
+     "file": "/data/node_modules/node-red-node-pushbullet/57-pushbullet.js"
+    }
+   }
   }
  },
  "_credentialSecret": "7d1d49534414fd216de8de5ab7682906dae2577d554270ef57e117a26e3de131",
@@ -999,7 +1018,7 @@
     }
    },
    "menu-menu-item-sidebar": true,
-   "menu-menu-item-palette": false
+   "menu-menu-item-palette": true
   }
  }
 }

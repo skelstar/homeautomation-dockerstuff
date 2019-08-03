@@ -1,0 +1,38 @@
+#zone:
+
+# https://www.latlong.net/convert-address-to-lat-long.html
+
+- name: Home
+  latitude: -41.295160
+  longitude: 174.765340
+  radius: 250
+  icon: mdi:school
+
+- name: Daycare
+  latitude: -41.288180
+  longitude: 174.777670
+  radius: 100
+  icon: mdi:home
+
+- name: Outside Liquor King
+  latitude: -41.293399
+  longitude: 174.773497
+  radius: 100
+
+- name: NW Metro/Willis Bus Stop
+  latitude: -41.287881
+  longitude: 174.775359
+  radius: 50
+  icon: mdi:supermarket
+
+- name: Xero
+  latitude: -41.291550
+  longitude: 174.779640
+  radius: 50
+  icon: mdi:work
+
+# - name: Leila's Work
+#   latitude: -41.291550
+#   longitude: 174.779640
+#   radius: 50
+#   icon: mdi:work
