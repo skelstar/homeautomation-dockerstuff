@@ -19,11 +19,24 @@
   - entity_id: binary_sensor.kitchen_bench_lights
     platform: state
     # from: 'off'
-    # to: 'on'
+    to: 'on'
   condition: []
   action:
   - service: mqtt.publish
     data:
-      payload: $LED$ON
+      payload: $LED_ALL$ON
+      topic: /homeassistant/lights/kitchenbench
+- id: kitchen_bench_lights_on
+  alias: kitchen_bench_lights_off
+  trigger:
+  - entity_id: binary_sensor.kitchen_bench_lights
+    platform: state
+    # from: 'off'
+    to: 'off'
+  condition: []
+  action:
+  - service: mqtt.publish
+    data:
+      payload: $LED_ALL$OFF
       topic: /homeassistant/lights/kitchenbench
     
