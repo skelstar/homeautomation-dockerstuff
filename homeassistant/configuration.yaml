@@ -42,14 +42,12 @@ sensor:
 
 binary_sensor:
   - platform: mqtt
-    name: "Kitchen Lights"
+    name: "Kitchen Bench Lights"
     state_topic: "/device/smartsocket/SMTSKT05/event"
-    # command_topic: "/homeassistant/lights/kitchenbench"
     value_template: "{%if is_state(entity_id,\"on\")-%}OFF{%-else-%}ON{%-endif%}"
   # - platform: mqtt
-  #   name: "Kitchen Lights 2"
+  #   name: "Kitchen Bench Lights 2"
   #   state_topic: "/device/smartsocket/SMTSKT05/event"
-  #   # command_topic: "/homeassistant/lights/kitchenbench"
   #   value_template: "{%if is_state(entity_id,\"on\")-%}OFF{%-else-%}ON{%-endif%}"
 
 device_tracker:

@@ -1,28 +1,27 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-05T06:24:32.416556+00:00",
+            "last_seen": "2019-08-05T07:32:01.007496+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Sean",
                     "id": "a69cf3772c5e42fa8f98051da25e442a",
-                    "source": "person.sean",
                     "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
                 },
                 "context": {
-                    "id": "e4980a97f64441538774000ded90bc3d",
+                    "id": "ed932982dd6d41cb953f4511d17eaa46",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.sean",
-                "last_changed": "2019-08-05T06:24:27.631567+00:00",
-                "last_updated": "2019-08-05T06:24:27.631567+00:00",
+                "last_changed": "2019-08-05T07:16:55.288076+00:00",
+                "last_updated": "2019-08-05T07:17:00.150774+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-08-05T06:24:32.416556+00:00",
+            "last_seen": "2019-08-05T07:32:01.007496+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Leila Life360 Event",
@@ -30,13 +29,70 @@
                     "last_triggered": "2019-08-05T05:13:45.937791+00:00"
                 },
                 "context": {
-                    "id": "def026cd91d247da9646020e4ee50641",
+                    "id": "29cb4fdbe8484490810011c77449f813",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.leila_life360_event",
-                "last_changed": "2019-08-05T06:24:27.637804+00:00",
-                "last_updated": "2019-08-05T06:24:27.637804+00:00",
+                "last_changed": "2019-08-05T07:16:55.295043+00:00",
+                "last_updated": "2019-08-05T07:16:55.295043+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-05T07:32:01.007496+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "kitchen_bench_lights_on",
+                    "id": "kitchen_bench_lights_on",
+                    "last_triggered": "2019-08-05T07:30:05.374647+00:00"
+                },
+                "context": {
+                    "id": "a57fbe3e87e64c92a0cc22002a62e125",
+                    "parent_id": "0f5d322ae3da485780cb994cb4ef2fe7",
+                    "user_id": null
+                },
+                "entity_id": "automation.kitchen_bench_lights_on",
+                "last_changed": "2019-08-05T07:16:55.301910+00:00",
+                "last_updated": "2019-08-05T07:30:05.375448+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-05T07:08:35.602243+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "kitchen_bench_light_on",
+                    "id": "kitchen_bench_light_on",
+                    "last_triggered": "2019-08-05T06:57:37.767078+00:00"
+                },
+                "context": {
+                    "id": "d9723a4236ad40d59313ba905111eaff",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.kitchen_bench_light_on",
+                "last_changed": "2019-08-05T07:06:59.994195+00:00",
+                "last_updated": "2019-08-05T07:06:59.994195+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-05T06:53:21.550435+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "automation 1",
+                    "id": "kitchen_bench_light_on",
+                    "last_triggered": "2019-08-05T05:42:50.019673+00:00"
+                },
+                "context": {
+                    "id": "b3cf4370e9824dec9ebce6609ee735e3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.automation_1",
+                "last_changed": "2019-08-05T06:52:29.190164+00:00",
+                "last_updated": "2019-08-05T06:52:29.190164+00:00",
                 "state": "on"
             }
         },
@@ -56,25 +112,6 @@
                 "last_changed": "2019-08-05T06:08:36.401147+00:00",
                 "last_updated": "2019-08-05T06:08:36.401147+00:00",
                 "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-08-05T06:05:52.943349+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "automation 1",
-                    "id": "SMTSKT05/event",
-                    "last_triggered": "2019-08-05T05:42:50.019673+00:00"
-                },
-                "context": {
-                    "id": "258f71d76b674c0099f776750851e408",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.automation_1",
-                "last_changed": "2019-08-05T05:42:39.416029+00:00",
-                "last_updated": "2019-08-05T05:42:50.020318+00:00",
-                "state": "on"
             }
         },
         {
