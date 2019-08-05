@@ -11,7 +11,7 @@
 - name: Daycare
   latitude: -41.288180
   longitude: 174.777670
-  radius: 100
+  radius: 50
   icon: mdi:home
 
 - name: Outside Liquor King
@@ -31,8 +31,8 @@
   radius: 50
   icon: mdi:work
 
-# - name: Leila's Work
-#   latitude: -41.291550
-#   longitude: 174.779640
-#   radius: 50
-#   icon: mdi:work
+- name: Leila's Work
+  latitude: -41.281470
+  longitude: 174.775740
+  radius: 50
+  icon: mdi:work

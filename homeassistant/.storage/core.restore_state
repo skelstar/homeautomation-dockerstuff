@@ -1,46 +1,84 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-03T21:07:21.007006+00:00",
+            "last_seen": "2019-08-05T06:24:32.416556+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Sean",
                     "id": "a69cf3772c5e42fa8f98051da25e442a",
+                    "source": "person.sean",
                     "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
                 },
                 "context": {
-                    "id": "187540681dd8499c91dc1db05ba0e0a9",
+                    "id": "e4980a97f64441538774000ded90bc3d",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.sean",
-                "last_changed": "2019-08-03T18:37:06.960013+00:00",
-                "last_updated": "2019-08-03T18:37:11.747667+00:00",
+                "last_changed": "2019-08-05T06:24:27.631567+00:00",
+                "last_updated": "2019-08-05T06:24:27.631567+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-08-03T21:07:21.007006+00:00",
+            "last_seen": "2019-08-05T06:24:32.416556+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Leila Life360 Event",
                     "id": "leila_life360_event",
-                    "last_triggered": "2019-08-03T18:59:46.596015+00:00"
+                    "last_triggered": "2019-08-05T05:13:45.937791+00:00"
                 },
                 "context": {
-                    "id": "3c396bc0d63f421d9e2ca3eef6179080",
-                    "parent_id": "19e8c5926306408ab4b06e32ec2e1cd4",
+                    "id": "def026cd91d247da9646020e4ee50641",
+                    "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.leila_life360_event",
-                "last_changed": "2019-08-03T18:37:06.961575+00:00",
-                "last_updated": "2019-08-03T18:59:46.596788+00:00",
+                "last_changed": "2019-08-05T06:24:27.637804+00:00",
+                "last_updated": "2019-08-05T06:24:27.637804+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-03T21:07:21.007006+00:00",
+            "last_seen": "2019-08-05T06:13:49.242276+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Kitchen Lights",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "cd5ce7998b7840e282ee50ec9dcd87eb",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.kitchen_lights",
+                "last_changed": "2019-08-05T06:08:36.401147+00:00",
+                "last_updated": "2019-08-05T06:08:36.401147+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-08-05T06:05:52.943349+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "automation 1",
+                    "id": "SMTSKT05/event",
+                    "last_triggered": "2019-08-05T05:42:50.019673+00:00"
+                },
+                "context": {
+                    "id": "258f71d76b674c0099f776750851e408",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.automation_1",
+                "last_changed": "2019-08-05T05:42:39.416029+00:00",
+                "last_updated": "2019-08-05T05:42:50.020318+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-03T21:13:19.240160+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Leila leaving home",

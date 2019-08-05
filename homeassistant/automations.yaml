@@ -3,16 +3,28 @@
   alias: Leila Life360 Event
   trigger:
   - entity_id: device_tracker.life360_leila
-    from: 'on'
     platform: state
-    to: 'off'
+    to: 'is away'
   - entity_id: device_tracker.life360_leila
-    from: 'off'
     platform: state
-    to: 'on'
+    from: 'is away'
   condition: []
   action:
   - data_template:
       topic: '/homeassistant/life360'
-      payload_template: "{{states.device_tracker.life360_leila.state}}"
+      payload_template: "{{states.device_tracker.life360_leila}}"
     service: mqtt.publish
+
+# - id: SMTSKT05/event
+#   trigger:
+#     platform: binary_sensor
+#   condition: []
+#   action:
+#     - service: mqtt.publish  
+#       data_template:
+#         topic: '/homeassistant/lights/kitchenbench'
+#         payload_template: "$LED_ALL$OFF"
+    # - service: mqtt.publish    
+    #   data_template:
+    #     topic: '/homeassistant/lights/kitchenbench'
+    #     payload_template: "$LED_ALL$OFF"
