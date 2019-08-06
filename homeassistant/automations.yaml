@@ -20,6 +20,9 @@
   - entity_id: binary_sensor.kitchen_bench_lights
     platform: state
     to: 'on'
+  - entity_id: binary_sensor.kitchen_motion_sensor
+    platform: state
+    to: 'on'
   condition: []
   action:
   - service: mqtt.publish
@@ -32,7 +35,6 @@
   trigger:
   - entity_id: binary_sensor.kitchen_bench_lights
     platform: state
-    # from: 'off'
     to: 'off'
   condition: []
   action:
@@ -42,18 +44,58 @@
       topic: /homeassistant/lights/kitchenbench
     
 
-- id: kitchen_bench_lights_off_after_minutes
-  alias: kitchen_bench_lights_off_after_minutes
+- id: kitchen_bench_lights_off_after_10_minutes
+  alias: kitchen_bench_lights_off_after_10_minutes
   trigger:
   - entity_id: binary_sensor.kitchen_bench_lights
     platform: state
-    to: 'on'
+    to: 'off'
     for:
-      minutes: 1
+      minutes: 10
+  - entity_id: binary_sensor.kitchen_motion_sensor
+    platform: state
+    to: 'off'
+    for:
+      minutes: 10
   condition: []
   action:
   - service: mqtt.publish
     data:
       payload: $LED_ALL$OFF
       topic: /homeassistant/lights/kitchenbench
+
+#----------------------------------------------------------
+
+- id: computer_desk_light_on
+  alias: computer_desk_light_on
+  trigger:
+  - entity_id: binary_sensor.aqara_cube1_shake
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: mqtt.publish
+    data:
+      payload: $RELAY$ON
+      topic: /homeassistant/computer_light/command
     
+- id: computer_desk_light_off_after_10_minutes
+  alias: computer_desk_light_off_after_10_minutes
+  trigger:
+  - entity_id: binary_sensor.aqara_cube1_shake
+    platform: state
+    to: 'off'
+    for:
+      minutes: 30
+  - entity_id: binary_sensor.bedroom_motion_sensor
+    platform: state
+    to: 'off'
+    for:
+      minutes: 30
+  condition: []
+  action:
+  - service: mqtt.publish
+    data:
+      payload: $RELAY$OFF
+      topic: /homeassistant/computer_light/command
+
