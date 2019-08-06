@@ -13,12 +13,12 @@
       topic: /homeassistant/life360
       payload_template: '{{states.device_tracker.life360_leila}}'
     service: mqtt.publish
+
 - id: kitchen_bench_lights_on
   alias: kitchen_bench_lights_on
   trigger:
   - entity_id: binary_sensor.kitchen_bench_lights
     platform: state
-    # from: 'off'
     to: 'on'
   condition: []
   action:
@@ -26,13 +26,30 @@
     data:
       payload: $LED_ALL$ON
       topic: /homeassistant/lights/kitchenbench
-- id: kitchen_bench_lights_on
+
+- id: kitchen_bench_lights_off
   alias: kitchen_bench_lights_off
   trigger:
   - entity_id: binary_sensor.kitchen_bench_lights
     platform: state
     # from: 'off'
     to: 'off'
+  condition: []
+  action:
+  - service: mqtt.publish
+    data:
+      payload: $LED_ALL$OFF
+      topic: /homeassistant/lights/kitchenbench
+    
+
+- id: kitchen_bench_lights_off_after_minutes
+  alias: kitchen_bench_lights_off_after_minutes
+  trigger:
+  - entity_id: binary_sensor.kitchen_bench_lights
+    platform: state
+    to: 'on'
+    for:
+      minutes: 1
   condition: []
   action:
   - service: mqtt.publish
