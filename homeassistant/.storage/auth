@@ -41,7 +41,7 @@
                 "created_at": "2019-07-18T08:07:36.614918+00:00",
                 "id": "c7f88fae724b4dedaa4e5b2a2e43d2fb",
                 "jwt_key": "1cb712136501fdae2db1cd79a25ebd77d1ee5e612527accaf0feffe84de266f00f55472e493f68f010938fedde19b81eb79b25f46503eabefb40363ca1591b79",
-                "last_used_at": "2019-08-06T05:33:18.717504+00:00",
+                "last_used_at": "2019-08-09T04:33:43.289982+00:00",
                 "last_used_ip": "192.168.1.182",
                 "token": "4d85a664f2763b9c398eec7c6cb3da55dd09223d49da9651e0d548bddf000fefbd1b6aeaf0d0b1d0231e1ec631fb5187b530d55507867d26442daae9147d798f",
                 "token_type": "normal",
@@ -128,6 +128,20 @@
                 "last_used_at": "2019-08-06T21:24:28.970787+00:00",
                 "last_used_ip": "192.168.1.83",
                 "token": "82449ba5a8b7c0cef623644f3f6a7d36a0696827771a87a386234e878a183727193725f7e62383fabdf51111c5ddcac36ee0d09897e50b49cb6b2be50c63bd7d",
+                "token_type": "normal",
+                "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://homeautomation.local:8123/",
+                "client_name": null,
+                "created_at": "2019-08-06T23:04:57.448603+00:00",
+                "id": "bafe9fd2970c4ae69f6ca3e95d4861ae",
+                "jwt_key": "02411da759b35ba2f04abb6cb154c0dfb8efcc28b43008441ef69510be227df632d3a78510f2ec6eed16db56ad8b2f7ce331d969f6a6388d48352ff356130811",
+                "last_used_at": "2019-08-07T05:25:53.199811+00:00",
+                "last_used_ip": "192.168.1.83",
+                "token": "ce542679c6995727f78ec8d03256b6701f755ddcac18da81015dedceadd18bd1d1e31294bba50a73b9a73724be4da8cfbcb895d48a85f0df4a01f34ba0740164",
                 "token_type": "normal",
                 "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
             }

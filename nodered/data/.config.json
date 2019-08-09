@@ -987,7 +987,7 @@
   "node-red-node-pushbullet": {
    "name": "node-red-node-pushbullet",
    "version": "0.0.14",
-   "local": false,
+   "local": true,
    "nodes": {
     "pushbullet": {
      "name": "pushbullet",
