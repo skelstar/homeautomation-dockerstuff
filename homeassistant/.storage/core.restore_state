@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-09T18:26:41.009923+00:00",
+            "last_seen": "2019-08-09T23:26:58.008517+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -21,26 +21,26 @@
             }
         },
         {
-            "last_seen": "2019-08-09T18:26:41.009923+00:00",
+            "last_seen": "2019-08-09T23:26:58.008517+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "kitchen_bench_lights_on",
                     "id": "kitchen_bench_lights_on",
-                    "last_triggered": "2019-08-09T17:59:24.195951+00:00"
+                    "last_triggered": "2019-08-09T23:07:31.606544+00:00"
                 },
                 "context": {
-                    "id": "7cd21877bb6c4a10aa3dccc18a98859e",
-                    "parent_id": "450cb150513941329c1c0152d043fb5c",
+                    "id": "ff3ff905d8f04763b5836c0a51886c0e",
+                    "parent_id": "78e44bc896d648d08b7aea8649ef0e5e",
                     "user_id": null
                 },
                 "entity_id": "automation.kitchen_bench_lights_on",
                 "last_changed": "2019-08-08T03:39:14.978217+00:00",
-                "last_updated": "2019-08-09T17:59:24.196770+00:00",
+                "last_updated": "2019-08-09T23:07:31.607602+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-09T18:26:41.009923+00:00",
+            "last_seen": "2019-08-09T23:26:58.008517+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "kitchen_bench_lights_off",
@@ -59,26 +59,26 @@
             }
         },
         {
-            "last_seen": "2019-08-09T18:26:41.009923+00:00",
+            "last_seen": "2019-08-09T23:26:58.008517+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "kitchen_bench_lights_off_after_10_minutes",
                     "id": "kitchen_bench_lights_off_after_10_minutes",
-                    "last_triggered": "2019-08-09T18:09:27.025689+00:00"
+                    "last_triggered": "2019-08-09T23:17:34.018026+00:00"
                 },
                 "context": {
-                    "id": "9f1b2e2a472b405895236a778c8b0a0f",
-                    "parent_id": "c76c0999d12d449f824dba6680198e66",
+                    "id": "abc70b54cb4a4f599ec9160960330b49",
+                    "parent_id": "119f8055ab264b3cabe9f795c9289606",
                     "user_id": null
                 },
                 "entity_id": "automation.kitchen_bench_lights_off_after_10_minutes",
                 "last_changed": "2019-08-08T03:39:14.997609+00:00",
-                "last_updated": "2019-08-09T18:09:27.026571+00:00",
+                "last_updated": "2019-08-09T23:17:34.018724+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-09T18:26:41.009923+00:00",
+            "last_seen": "2019-08-09T23:26:58.008517+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "computer_desk_light_on",
@@ -97,7 +97,7 @@
             }
         },
         {
-            "last_seen": "2019-08-09T18:26:41.009923+00:00",
+            "last_seen": "2019-08-09T23:26:58.008517+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "computer_desk_light_off_after_10_minutes",
@@ -116,7 +116,7 @@
             }
         },
         {
-            "last_seen": "2019-08-09T18:26:41.009923+00:00",
+            "last_seen": "2019-08-09T23:26:58.008517+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Leila Life360 Event",
@@ -264,66 +264,6 @@
                 "last_changed": "2019-08-03T04:14:10.136740+00:00",
                 "last_updated": "2019-08-03T04:14:10.136740+00:00",
                 "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-02T21:40:21.553557+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Sean leaving home",
-                    "id": "1564780463482",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "4a3024eaeb35440c8f6562c9cf8dcb8a",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.sean_leaving_home",
-                "last_changed": "2019-08-02T21:26:53.093562+00:00",
-                "last_updated": "2019-08-02T21:26:53.093562+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-02T20:38:39.702918+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Leila leaving Daycare",
-                    "last_triggered": null
-                },
-                "context": {
-                    "id": "11b4447e500b43ffabd55bf1329f0264",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.leila_leaving_daycare",
-                "last_changed": "2019-08-02T06:12:34.600652+00:00",
-                "last_updated": "2019-08-02T06:12:34.600652+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-02T20:38:39.702918+00:00",
-            "state": {
-                "attributes": {
-                    "editable": true,
-                    "friendly_name": "Leila",
-                    "gps_accuracy": 15,
-                    "id": "923dd0d062754d20918647b28c03f70a",
-                    "latitude": -41.2951234,
-                    "longitude": 174.7653252,
-                    "source": "device_tracker.life360_leila"
-                },
-                "context": {
-                    "id": "918ed47ce3654e8da3cc364c48b2aafa",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "person.leila",
-                "last_changed": "2019-08-02T06:15:02.994620+00:00",
-                "last_updated": "2019-08-02T19:09:38.593176+00:00",
-                "state": "home"
             }
         },
         {
