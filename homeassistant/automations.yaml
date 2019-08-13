@@ -14,6 +14,61 @@
       payload_template: '{{states.device_tracker.life360_leila}}'
     service: mqtt.publish
 
+- id: leila_left_daycare
+  alias: leila_left_daycare
+  trigger:
+  - entity_id: device_tracker.life360_leila
+    platform: state
+    from: Daycare
+    to: is away
+  condition: []
+  action:
+  - data_template:
+      topic: /homeassistant/life360
+      payload_template: 'Leila left daycare'
+    service: mqtt.publish
+
+- id: leila_left_willis_bus
+  alias: leila_left_willis_bus
+  trigger:
+  - entity_id: device_tracker.life360_leila
+    platform: state
+    from: 'NW Metro/Willis Bus Stop'
+    to: is away
+  condition: []
+  action:
+  - data_template:
+      topic: /homeassistant/life360
+      payload_template: 'Leila left Wills St Bus'
+    service: mqtt.publish
+
+- id: leila_left_willis_bus
+  alias: leila_left_willis_bus
+  trigger:
+    - platform: zone
+      event: leave
+      zone: zones.nw_willis_bus_stop
+      entity_id: device_tracker.life360_leila
+  condition: []
+  action:
+  - data_template:
+      topic: /homeassistant/life360
+      payload_template: 'Leila left Wills St Bus'
+    service: mqtt.publish
+
+- id: leila_left_arrived_liqour_king
+  alias: leila_left_arrived_liqour_king
+  trigger:
+    - platform: zone
+      event: enter
+      zone: zones.outside_liquor_king
+      entity_id: device_tracker.life360_leila
+  action:
+    - data_template:
+        topic: /homeassistant/life360
+        payload_template: 'Leila arrived Liqour King'
+      service: mqtt.publish
+
 - id: kitchen_bench_lights_on
   alias: kitchen_bench_lights_on
   trigger:

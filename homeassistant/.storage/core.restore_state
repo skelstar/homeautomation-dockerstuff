@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-10T19:36:30.034614+00:00",
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -10,94 +10,18 @@
                     "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
                 },
                 "context": {
-                    "id": "ddcd67e948644b5da13296f5dae61949",
+                    "id": "02d06bd8253540e09411654f6880cdf0",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.sean",
-                "last_changed": "2019-08-10T04:20:30.843624+00:00",
-                "last_updated": "2019-08-10T04:20:35.882594+00:00",
+                "last_changed": "2019-08-12T05:23:40.671914+00:00",
+                "last_updated": "2019-08-12T05:23:45.943570+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-08-10T19:36:30.034614+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Leila Life360 Event",
-                    "id": "leila_life360_event",
-                    "last_triggered": "2019-08-06T04:33:55.027675+00:00"
-                },
-                "context": {
-                    "id": "f31c4066099f482286c12b42043fc7a2",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.leila_life360_event",
-                "last_changed": "2019-08-10T04:20:30.848455+00:00",
-                "last_updated": "2019-08-10T04:20:30.848455+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-10T19:36:30.034614+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "kitchen_bench_lights_on",
-                    "id": "kitchen_bench_lights_on",
-                    "last_triggered": "2019-08-10T17:54:42.676670+00:00"
-                },
-                "context": {
-                    "id": "7c7ca50cb93d4d08b26cc45c5e1b5f24",
-                    "parent_id": "3ef09843bce4465f83adfa9f43543ecd",
-                    "user_id": null
-                },
-                "entity_id": "automation.kitchen_bench_lights_on",
-                "last_changed": "2019-08-10T04:20:30.866521+00:00",
-                "last_updated": "2019-08-10T17:54:42.677405+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-10T19:36:30.034614+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "kitchen_bench_lights_off",
-                    "id": "kitchen_bench_lights_off",
-                    "last_triggered": "2019-08-10T17:53:55.031114+00:00"
-                },
-                "context": {
-                    "id": "a1a3961af68a473483e9686207a51bde",
-                    "parent_id": "4920a3c0d10a448985c4ecc5d7598f0e",
-                    "user_id": null
-                },
-                "entity_id": "automation.kitchen_bench_lights_off",
-                "last_changed": "2019-08-10T04:20:30.873591+00:00",
-                "last_updated": "2019-08-10T17:53:55.032009+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-10T19:36:30.034614+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "kitchen_bench_lights_off_after_10_minutes",
-                    "id": "kitchen_bench_lights_off_after_10_minutes",
-                    "last_triggered": "2019-08-10T18:04:45.018366+00:00"
-                },
-                "context": {
-                    "id": "71a3db4a9d124549a2dd18a1d79f0ba9",
-                    "parent_id": "cc02d60a31e24aa8a0b90e904aa75147",
-                    "user_id": null
-                },
-                "entity_id": "automation.kitchen_bench_lights_off_after_10_minutes",
-                "last_changed": "2019-08-10T04:20:30.880360+00:00",
-                "last_updated": "2019-08-10T18:04:45.019592+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-10T19:36:30.034614+00:00",
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "computer_desk_light_on",
@@ -105,18 +29,18 @@
                     "last_triggered": "2019-08-08T09:13:21.268041+00:00"
                 },
                 "context": {
-                    "id": "428e81c6398d459897f212cf85a6d84e",
+                    "id": "4e5b88875de147c4b45896a78a4f8996",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.computer_desk_light_on",
-                "last_changed": "2019-08-10T04:20:30.888842+00:00",
-                "last_updated": "2019-08-10T04:20:30.888842+00:00",
+                "last_changed": "2019-08-13T04:02:54.587412+00:00",
+                "last_updated": "2019-08-13T04:02:54.587412+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-10T19:36:30.034614+00:00",
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "computer_desk_light_off_after_10_minutes",
@@ -124,13 +48,165 @@
                     "last_triggered": "2019-08-08T09:43:24.024718+00:00"
                 },
                 "context": {
-                    "id": "7b02ac3eb0c14e288a6f27c03e077e03",
+                    "id": "e0da25c62440429fbe351f0db2c1dc86",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.computer_desk_light_off_after_10_minutes",
-                "last_changed": "2019-08-10T04:20:30.895790+00:00",
-                "last_updated": "2019-08-10T04:20:30.895790+00:00",
+                "last_changed": "2019-08-13T04:02:54.600798+00:00",
+                "last_updated": "2019-08-13T04:02:54.600798+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "kitchen_bench_lights_on",
+                    "id": "kitchen_bench_lights_on",
+                    "last_triggered": "2019-08-13T05:04:44.367365+00:00"
+                },
+                "context": {
+                    "id": "f38524d7b3d146f1915d5255f0dc6782",
+                    "parent_id": "c9191a8ccb1e434794d5c0dcde3ce6fe",
+                    "user_id": null
+                },
+                "entity_id": "automation.kitchen_bench_lights_on",
+                "last_changed": "2019-08-13T04:02:54.612391+00:00",
+                "last_updated": "2019-08-13T05:04:44.368161+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "leila_left_daycare",
+                    "id": "leila_left_daycare",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "d6996e7bda964da4b4bb85f5bab5ba3f",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.leila_left_daycare",
+                "last_changed": "2019-08-13T04:02:54.626171+00:00",
+                "last_updated": "2019-08-13T04:02:54.626171+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Leila Life360 Event",
+                    "id": "leila_life360_event",
+                    "last_triggered": "2019-08-13T03:43:51.041458+00:00"
+                },
+                "context": {
+                    "id": "b1e8b5a2314f46fbaf2b7f5abcc16e62",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.leila_life360_event",
+                "last_changed": "2019-08-13T04:02:54.638113+00:00",
+                "last_updated": "2019-08-13T04:02:54.638113+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "kitchen_bench_lights_off_after_10_minutes",
+                    "id": "kitchen_bench_lights_off_after_10_minutes",
+                    "last_triggered": "2019-08-13T04:30:51.027744+00:00"
+                },
+                "context": {
+                    "id": "132339bbb6bf4eddb834434260697434",
+                    "parent_id": "f7184640f2d14579be3728df9f256778",
+                    "user_id": null
+                },
+                "entity_id": "automation.kitchen_bench_lights_off_after_10_minutes",
+                "last_changed": "2019-08-13T04:02:54.649404+00:00",
+                "last_updated": "2019-08-13T04:30:51.029495+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "leila_left_willis_bus",
+                    "id": "leila_left_willis_bus",
+                    "last_triggered": "2019-08-13T04:03:38.812418+00:00"
+                },
+                "context": {
+                    "id": "81effd675e494deea9751739ff2fa102",
+                    "parent_id": "31616b7f46ef482b851032047c63bded",
+                    "user_id": null
+                },
+                "entity_id": "automation.leila_left_willis_bus",
+                "last_changed": "2019-08-13T04:02:54.658538+00:00",
+                "last_updated": "2019-08-13T04:03:38.813502+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "leila_left_willis_bus",
+                    "id": "leila_left_willis_bus",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "b79995904eb24a1fa65457fd3be6e5ba",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.leila_left_willis_bus_2",
+                "last_changed": "2019-08-13T04:02:54.666769+00:00",
+                "last_updated": "2019-08-13T04:02:54.666769+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "leila_left_arrived_liqour_king",
+                    "id": "leila_left_arrived_liqour_king",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "2f0caf72553645fbb036350a99e36de8",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.leila_left_arrived_liqour_king",
+                "last_changed": "2019-08-13T04:02:54.675487+00:00",
+                "last_updated": "2019-08-13T04:02:54.675487+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-08-13T05:10:09.008249+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "kitchen_bench_lights_off",
+                    "id": "kitchen_bench_lights_off",
+                    "last_triggered": "2019-08-10T17:53:55.031114+00:00"
+                },
+                "context": {
+                    "id": "8678e5b1689f404f8e6d2fad8ed747aa",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.kitchen_bench_lights_off",
+                "last_changed": "2019-08-13T04:02:54.686942+00:00",
+                "last_updated": "2019-08-13T04:02:54.686942+00:00",
                 "state": "on"
             }
         },
@@ -150,81 +226,6 @@
                 "entity_id": "automation.kitchen_bench_lights_off_after_minutes",
                 "last_changed": "2019-08-06T05:19:37.098727+00:00",
                 "last_updated": "2019-08-06T05:45:23.029212+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-05T07:08:35.602243+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "kitchen_bench_light_on",
-                    "id": "kitchen_bench_light_on",
-                    "last_triggered": "2019-08-05T06:57:37.767078+00:00"
-                },
-                "context": {
-                    "id": "d9723a4236ad40d59313ba905111eaff",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.kitchen_bench_light_on",
-                "last_changed": "2019-08-05T07:06:59.994195+00:00",
-                "last_updated": "2019-08-05T07:06:59.994195+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-05T06:53:21.550435+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "automation 1",
-                    "id": "kitchen_bench_light_on",
-                    "last_triggered": "2019-08-05T05:42:50.019673+00:00"
-                },
-                "context": {
-                    "id": "b3cf4370e9824dec9ebce6609ee735e3",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.automation_1",
-                "last_changed": "2019-08-05T06:52:29.190164+00:00",
-                "last_updated": "2019-08-05T06:52:29.190164+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-05T06:13:49.242276+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Kitchen Lights",
-                    "supported_features": 0
-                },
-                "context": {
-                    "id": "cd5ce7998b7840e282ee50ec9dcd87eb",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "light.kitchen_lights",
-                "last_changed": "2019-08-05T06:08:36.401147+00:00",
-                "last_updated": "2019-08-05T06:08:36.401147+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-08-03T21:13:19.240160+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Leila leaving home",
-                    "id": "leila_leaving_home",
-                    "last_triggered": "2019-08-03T03:36:00.537639+00:00"
-                },
-                "context": {
-                    "id": "aaf51bacd19b463b8a0abe61d79ef815",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.leila_leaving_home",
-                "last_changed": "2019-08-03T18:37:06.963250+00:00",
-                "last_updated": "2019-08-03T18:37:06.963250+00:00",
                 "state": "on"
             }
         },
