@@ -17,7 +17,7 @@ homeassistant:
     device_tracker.life360_leila:
       friendly_name: Leila
     device_tracker.life360_seankelly:
-      friendly_name: Finn
+      friendly_name: Sean
 
 # -group: !include groups.yaml
 # -script: !include scripts.yaml
@@ -44,10 +44,9 @@ binary_sensor: !include binary_sensors.yaml
 
 device_tracker:
   - platform: life360
-    username: skelstar@gmail.com
-    password: ec11225f87
-    circles:
-      include: [Family]
+    username: !secret life360_username
+    password: !secret life360_password
+    show_as_state: places 
 
 zone: !include zones.yaml
 
