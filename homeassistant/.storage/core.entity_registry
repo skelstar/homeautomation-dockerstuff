@@ -27,6 +27,15 @@
                 "name": null,
                 "platform": "person",
                 "unique_id": "923dd0d062754d20918647b28c03f70a"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.leila_2",
+                "name": null,
+                "platform": "person",
+                "unique_id": "c1b00f7bd3a6451bbb56b218875f833f"
             }
         ]
     },

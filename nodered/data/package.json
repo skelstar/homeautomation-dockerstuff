@@ -5,6 +5,7 @@
     "private": true,
     "dependencies": {
         "node-red-contrib-deconz": "~0.12.10",
+        "node-red-contrib-maps": "~0.2.2",
         "node-red-dashboard": "~2.15.5",
         "node-red-node-pushbullet": "0.0.14"
     }

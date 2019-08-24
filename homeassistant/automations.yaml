@@ -1,156 +1,98 @@
-- id: leila_life360_event
-  alias: Leila Life360 Event
-  trigger:
-  - entity_id: device_tracker.life360_leila
-    platform: state
-    to: is away
-  - entity_id: device_tracker.life360_leila
-    platform: state
-    from: is away
-  condition: []
-  action:
-  - data_template:
-      topic: /homeassistant/life360
-      payload_template: '{{states.device_tracker.life360_leila}}'
-    service: mqtt.publish
 
-- id: leila_left_daycare
-  alias: leila_left_daycare
-  trigger:
-  - entity_id: device_tracker.life360_leila
-    platform: state
-    from: Daycare
-    to: is away
-  condition: []
-  action:
-  - data_template:
-      topic: /homeassistant/life360
-      payload_template: 'Leila left daycare'
-    service: mqtt.publish
+# https://www.home-assistant.io/docs/automation/trigger/#zone-trigger
 
-- id: leila_left_willis_bus
-  alias: leila_left_willis_bus
+- id: leila_leaving_home
+  alias: leila_leaving_home
   trigger:
-  - entity_id: device_tracker.life360_leila
-    platform: state
-    from: 'NW Metro/Willis Bus Stop'
-    to: is away
-  condition: []
-  action:
-  - data_template:
-      topic: /homeassistant/life360
-      payload_template: 'Leila left Wills St Bus'
-    service: mqtt.publish
-
-- id: leila_left_willis_bus
-  alias: leila_left_willis_bus
-  trigger:
-    - platform: zone
-      event: leave
-      zone: zones.nw_willis_bus_stop
-      entity_id: device_tracker.life360_leila
-  condition: []
-  action:
-  - data_template:
-      topic: /homeassistant/life360
-      payload_template: 'Leila left Wills St Bus'
-    service: mqtt.publish
-
-- id: leila_left_arrived_liqour_king
-  alias: leila_left_arrived_liqour_king
-  trigger:
-    - platform: zone
-      event: enter
-      zone: zones.outside_liquor_king
-      entity_id: device_tracker.life360_leila
-  action:
-    - data_template:
-        topic: /homeassistant/life360
-        payload_template: 'Leila arrived Liqour King'
-      service: mqtt.publish
-
-- id: kitchen_bench_lights_on
-  alias: kitchen_bench_lights_on
-  trigger:
-  - entity_id: binary_sensor.kitchen_bench_lights
-    platform: state
-    to: 'on'
-  - entity_id: binary_sensor.kitchen_motion_sensor
-    platform: state
-    to: 'on'
+    entity_id: device_tracker.life360_leila
+    event: leave
+    platform: zone
+    zone: zone.home
   condition: []
   action:
   - service: mqtt.publish
-    data:
-      payload: $LED_ALL$ON
-      topic: /homeassistant/lights/kitchenbench
+    data_template:
+      topic: /homeassistant/life360
+      payload_template: Leila leaving home    
 
-- id: kitchen_bench_lights_off
-  alias: kitchen_bench_lights_off
+- id: leila_arrived_work
+  alias: leila_arrived_work
   trigger:
-  - entity_id: binary_sensor.kitchen_bench_lights
-    platform: state
-    to: 'off'
-  condition: []
+    entity_id: device_tracker.life360_leila
+    event: enter
+    platform: zone
+    zone: zone.leilas_work
   action:
-  - service: mqtt.publish
-    data:
-      payload: $LED_ALL$OFF
-      topic: /homeassistant/lights/kitchenbench
+  - data_template:
+      payload_template: Leila go to work
+      topic: /homeassistant/life360
+    service: mqtt.publish
+
+- id: leila_left_work
+  alias: leila_left_work
+  trigger:
+    entity_id: device_tracker.life360_leila
+    event: leave
+    platform: zone
+    zone: zone.leilas_work
+  action:
+  - data_template:
+      payload_template: Leila left work
+      topic: /homeassistant/life360
+    service: mqtt.publish
     
-
-- id: kitchen_bench_lights_off_after_10_minutes
-  alias: kitchen_bench_lights_off_after_10_minutes
+- id: leila_arrived_willis_bus
+  alias: leila_arrived_willis_bus
   trigger:
-  - entity_id: binary_sensor.kitchen_bench_lights
-    platform: state
-    to: 'off'
-    for:
-      minutes: 10
-  - entity_id: binary_sensor.kitchen_motion_sensor
-    platform: state
-    to: 'off'
-    for:
-      minutes: 10
+    entity_id: device_tracker.life360_leila
+    event: enter
+    platform: zone
+    zone: zone.nw_willis_bus_stop
+  condition: []
+  action:
+  - data_template:
+      topic: /homeassistant/life360
+      payload_template: Leila arrived Willis St Bus
+    service: mqtt.publish
+
+- id: leila_arrived_liqour_king
+  alias: leila_arrived_liqour_king
+  trigger:
+    entity_id: device_tracker.life360_leila
+    event: enter
+    platform: zone
+    zone: zone.outside_liquor_king
+  action:
+  - data_template:
+      payload_template: Leila arrived Liqour King
+      topic: /homeassistant/life360
+    service: mqtt.publish
+
+- id: leila_arrived_aroy_cuba
+  alias: leila_arrived_aroy_cuba
+  trigger:
+    entity_id: device_tracker.life360_leila
+    event: enter
+    platform: zone
+    zone: zone.aroy_cuba
+  action:
+  - data_template:
+      payload_template: Leila arrived Aroy Cuba
+      topic: /homeassistant/life360
+    service: mqtt.publish
+
+- id: leila_close_to_home
+  alias: leila_close_to_home
+  trigger:
+    entity_id: device_tracker.life360_leila
+    event: enter
+    platform: zone
+    zone: zone.home
   condition: []
   action:
   - service: mqtt.publish
-    data:
-      payload: $LED_ALL$OFF
-      topic: /homeassistant/lights/kitchenbench
+    data_template:
+      topic: /homeassistant/life360
+      payload_template: Leila close to home    
 
-#----------------------------------------------------------
-
-- id: computer_desk_light_on
-  alias: computer_desk_light_on
-  trigger:
-  - entity_id: binary_sensor.aqara_cube1_shake
-    platform: state
-    to: 'on'
-  condition: []
-  action:
-  - service: mqtt.publish
-    data:
-      payload: $RELAY$ON
-      topic: /homeassistant/computer_light/command
-    
-- id: computer_desk_light_off_after_10_minutes
-  alias: computer_desk_light_off_after_10_minutes
-  trigger:
-  - entity_id: binary_sensor.aqara_cube1_shake
-    platform: state
-    to: 'off'
-    for:
-      minutes: 30
-  - entity_id: binary_sensor.bedroom_motion_sensor
-    platform: state
-    to: 'off'
-    for:
-      minutes: 30
-  condition: []
-  action:
-  - service: mqtt.publish
-    data:
-      payload: $RELAY$OFF
-      topic: /homeassistant/computer_light/command
 

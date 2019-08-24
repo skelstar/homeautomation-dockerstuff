@@ -5,7 +5,7 @@
 - name: Home
   latitude: -41.295160
   longitude: 174.765340
-  radius: 250
+  radius: 200
   icon: mdi:school
 
 - name: Daycare
@@ -17,7 +17,7 @@
 - name: Outside Liquor King
   latitude: -41.293399
   longitude: 174.773497
-  radius: 100
+  radius: 50
 
 - name: NW Willis Bus Stop
   latitude: -41.287881
@@ -31,8 +31,14 @@
   radius: 50
   icon: mdi:work
 
-- name: Leila's Work
+- name: Leilas Work
   latitude: -41.281470
   longitude: 174.775740
   radius: 50
   icon: mdi:work
+
+- name: Aroy Cuba
+  latitude: -41.292514
+  longitude: 174.776323
+  radius: 50
+

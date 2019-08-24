@@ -845,6 +845,23 @@
      "file": "/data/node_modules/node-red-dashboard/nodes/ui_spacer.js"
     }
    }
+  },
+  "node-red-contrib-maps": {
+   "name": "node-red-contrib-maps",
+   "version": "0.2.2",
+   "local": false,
+   "nodes": {
+    "maps": {
+     "name": "maps",
+     "types": [
+      "maps"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-maps",
+     "file": "/data/node_modules/node-red-contrib-maps/maps/maps.js"
+    }
+   }
   }
  },
  "_credentialSecret": "7d1d49534414fd216de8de5ab7682906dae2577d554270ef57e117a26e3de131",
