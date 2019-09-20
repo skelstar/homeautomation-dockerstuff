@@ -1,30 +1,30 @@
 {
     "data": [
         {
-            "last_seen": "2019-08-24T17:40:14.005639+00:00",
+            "last_seen": "2019-09-20T04:40:11.006190+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Leila",
                     "gps_accuracy": 15,
                     "id": "c1b00f7bd3a6451bbb56b218875f833f",
-                    "latitude": -41.2952155,
-                    "longitude": 174.7652628,
+                    "latitude": -41.2952398,
+                    "longitude": 174.7652652,
                     "source": "device_tracker.life360_leila"
                 },
                 "context": {
-                    "id": "0920848c154642c7ba4ca61a3a813406",
+                    "id": "c6304928f06c493ea3d7bbf8ea437d9d",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.leila_2",
-                "last_changed": "2019-08-24T03:45:03.575069+00:00",
-                "last_updated": "2019-08-24T12:36:05.553205+00:00",
+                "last_changed": "2019-09-20T04:34:32.584900+00:00",
+                "last_updated": "2019-09-20T04:37:08.569919+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2019-08-24T17:40:14.005639+00:00",
+            "last_seen": "2019-09-20T04:40:11.006190+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -33,203 +33,146 @@
                     "user_id": "f2fa33235e4f4b9f9610bd16bb7e6494"
                 },
                 "context": {
-                    "id": "99a48ad2d8514bdaa71a6e1ba6782032",
+                    "id": "9079c42824e944019f8d1782299fd47e",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.sean",
-                "last_changed": "2019-08-18T01:00:05.397396+00:00",
-                "last_updated": "2019-08-18T01:00:10.100156+00:00",
+                "last_changed": "2019-09-12T04:43:16.712257+00:00",
+                "last_updated": "2019-09-12T04:43:23.779225+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-08-24T17:40:14.005639+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "leila_leaving_home",
-                    "id": "leila_leaving_home",
-                    "last_triggered": "2019-08-23T20:52:47.665105+00:00"
-                },
-                "context": {
-                    "id": "1e4c0e45a02e4ea199a767a949a7f015",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.leila_leaving_home",
-                "last_changed": "2019-08-24T02:04:28.600338+00:00",
-                "last_updated": "2019-08-24T02:04:28.600338+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-24T17:40:14.005639+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "leila_left_work",
-                    "id": "leila_left_work",
-                    "last_triggered": "2019-08-24T03:02:28.653486+00:00"
-                },
-                "context": {
-                    "id": "7e96c4f76a8c4996bee82c45dbcf2a08",
-                    "parent_id": "571d5906bb3d4166b167cd925b9d38b1",
-                    "user_id": null
-                },
-                "entity_id": "automation.leila_left_work",
-                "last_changed": "2019-08-24T02:04:28.616230+00:00",
-                "last_updated": "2019-08-24T03:02:28.654389+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-24T17:40:14.005639+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "leila_arrived_willis_bus",
-                    "id": "leila_arrived_willis_bus",
-                    "last_triggered": "2019-08-24T03:09:50.657184+00:00"
-                },
-                "context": {
-                    "id": "bd32b24bbb0348d882f0f55790278de2",
-                    "parent_id": "af891202e14c4ea9bb5e4f84eaf0f2a6",
-                    "user_id": null
-                },
-                "entity_id": "automation.leila_arrived_willis_bus",
-                "last_changed": "2019-08-24T02:04:28.626336+00:00",
-                "last_updated": "2019-08-24T03:09:50.657975+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-24T17:40:14.005639+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "leila_close_to_home",
-                    "id": "leila_close_to_home",
-                    "last_triggered": "2019-08-24T03:45:03.625709+00:00"
-                },
-                "context": {
-                    "id": "ad0edcedb93540f48b8b1bf68cc23c95",
-                    "parent_id": "3a2a8577d47144d882bafb8b315bcc9f",
-                    "user_id": null
-                },
-                "entity_id": "automation.leila_close_to_home",
-                "last_changed": "2019-08-24T02:04:28.645662+00:00",
-                "last_updated": "2019-08-24T03:45:03.626576+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-08-24T17:40:14.005639+00:00",
+            "last_seen": "2019-09-20T04:40:11.006190+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "leila_arrived_aroy_cuba",
                     "id": "leila_arrived_aroy_cuba",
-                    "last_triggered": "2019-08-23T04:24:14.614729+00:00"
+                    "last_triggered": "2019-09-19T05:24:20.645560+00:00"
                 },
                 "context": {
-                    "id": "8d4beff697094b919185a95d6b5f0c2d",
-                    "parent_id": null,
+                    "id": "e1f6b97c0b674b6c82e4c1c616dd5f3c",
+                    "parent_id": "5aec816f6b254408916cd74a1f248a23",
                     "user_id": null
                 },
                 "entity_id": "automation.leila_arrived_aroy_cuba",
-                "last_changed": "2019-08-24T02:04:28.656270+00:00",
-                "last_updated": "2019-08-24T02:04:28.656270+00:00",
+                "last_changed": "2019-09-12T04:43:16.723662+00:00",
+                "last_updated": "2019-09-19T05:24:20.646282+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-24T17:40:14.005639+00:00",
+            "last_seen": "2019-09-20T04:40:11.006190+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "leila_arrived_liqour_king",
-                    "id": "leila_arrived_liqour_king",
-                    "last_triggered": "2019-08-19T04:08:56.668418+00:00"
+                    "friendly_name": "leila_close_to_home",
+                    "id": "leila_close_to_home",
+                    "last_triggered": "2019-09-20T04:34:32.621520+00:00"
                 },
                 "context": {
-                    "id": "46fddfc5ac7c4e319b02b3f5347580b7",
-                    "parent_id": null,
+                    "id": "fd196ec272bf4764ad77c2b41cf043b9",
+                    "parent_id": "8fcdb803a78b4a57b3a3bdbf285d37da",
                     "user_id": null
                 },
-                "entity_id": "automation.leila_arrived_liqour_king",
-                "last_changed": "2019-08-24T02:04:28.669968+00:00",
-                "last_updated": "2019-08-24T02:04:28.669968+00:00",
+                "entity_id": "automation.leila_close_to_home",
+                "last_changed": "2019-09-12T04:43:16.731456+00:00",
+                "last_updated": "2019-09-20T04:34:32.622465+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-24T17:40:14.005639+00:00",
+            "last_seen": "2019-09-20T04:40:11.006190+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "leila_leaving_home",
+                    "id": "leila_leaving_home",
+                    "last_triggered": "2019-09-19T20:37:10.680206+00:00"
+                },
+                "context": {
+                    "id": "8f597f491582436f9515396f249c6b41",
+                    "parent_id": "2a338d688c774b8c907c3e7b03110a20",
+                    "user_id": null
+                },
+                "entity_id": "automation.leila_leaving_home",
+                "last_changed": "2019-09-12T04:43:16.737342+00:00",
+                "last_updated": "2019-09-19T20:37:10.680903+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-09-20T04:40:11.006190+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "leila_arrived_work",
                     "id": "leila_arrived_work",
-                    "last_triggered": null
+                    "last_triggered": "2019-09-19T21:19:07.115030+00:00"
                 },
                 "context": {
-                    "id": "117f77cdb477442fb039ea40a56619ff",
-                    "parent_id": null,
+                    "id": "9f6b8cca0c2f44ba9d2d50465ad63d1f",
+                    "parent_id": "28e373808475491397ae4499edd251e8",
                     "user_id": null
                 },
                 "entity_id": "automation.leila_arrived_work",
-                "last_changed": "2019-08-24T02:04:28.680073+00:00",
-                "last_updated": "2019-08-24T02:04:28.680073+00:00",
+                "last_changed": "2019-09-12T04:43:16.743322+00:00",
+                "last_updated": "2019-09-19T21:19:07.115836+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-18T01:00:15.138496+00:00",
+            "last_seen": "2019-09-20T04:40:11.006190+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "kitchen_bench_lights_off_after_10_minutes",
-                    "id": "kitchen_bench_lights_off_after_10_minutes",
-                    "last_triggered": "2019-08-16T20:46:06.016336+00:00"
+                    "friendly_name": "leila_left_work",
+                    "id": "leila_left_work",
+                    "last_triggered": "2019-09-20T03:56:32.622400+00:00"
                 },
                 "context": {
-                    "id": "32efddbfecca47d4b49d26126b185f63",
-                    "parent_id": null,
+                    "id": "0d7e60db6a7d4df18bf861195d95edb5",
+                    "parent_id": "7d31cc2541f04efd811af5b1e830c056",
                     "user_id": null
                 },
-                "entity_id": "automation.kitchen_bench_lights_off_after_10_minutes",
-                "last_changed": "2019-08-18T01:00:05.403329+00:00",
-                "last_updated": "2019-08-18T01:00:05.403329+00:00",
+                "entity_id": "automation.leila_left_work",
+                "last_changed": "2019-09-12T04:43:16.749195+00:00",
+                "last_updated": "2019-09-20T03:56:32.623519+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-18T01:00:15.127276+00:00",
+            "last_seen": "2019-09-20T04:40:11.006190+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "kitchen_bench_lights_off",
-                    "id": "kitchen_bench_lights_off",
-                    "last_triggered": "2019-08-10T17:53:55.031114+00:00"
+                    "friendly_name": "leila_arrived_willis_bus",
+                    "id": "leila_arrived_willis_bus",
+                    "last_triggered": "2019-09-20T04:24:10.608342+00:00"
                 },
                 "context": {
-                    "id": "da0e1ec013114a41b641656824b5ed15",
-                    "parent_id": null,
+                    "id": "1eff0afea08f4b71b1de176cb6a02ad8",
+                    "parent_id": "1a32ed7f990a441fa4d0d0078409614f",
                     "user_id": null
                 },
-                "entity_id": "automation.kitchen_bench_lights_off",
-                "last_changed": "2019-08-18T01:00:05.451179+00:00",
-                "last_updated": "2019-08-18T01:00:05.451179+00:00",
+                "entity_id": "automation.leila_arrived_willis_bus",
+                "last_changed": "2019-09-12T04:43:16.754920+00:00",
+                "last_updated": "2019-09-20T04:24:10.609463+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-08-18T01:00:15.113456+00:00",
+            "last_seen": "2019-09-20T04:40:11.006190+00:00",
             "state": {
                 "attributes": {
-                    "friendly_name": "kitchen_bench_lights_on",
-                    "id": "kitchen_bench_lights_on",
-                    "last_triggered": "2019-08-18T00:58:45.298536+00:00"
+                    "friendly_name": "leila_arrived_liqour_king",
+                    "id": "leila_arrived_liqour_king",
+                    "last_triggered": "2019-08-27T04:31:55.664889+00:00"
                 },
                 "context": {
-                    "id": "acc006c02bc64e8686d2194ef12c9b20",
+                    "id": "6d9dd7e32f1b4874aea966bbd3daf0cd",
                     "parent_id": null,
                     "user_id": null
                 },
-                "entity_id": "automation.kitchen_bench_lights_on",
-                "last_changed": "2019-08-18T01:00:05.444526+00:00",
-                "last_updated": "2019-08-18T01:00:05.444526+00:00",
+                "entity_id": "automation.leila_arrived_liqour_king",
+                "last_changed": "2019-09-12T04:43:16.760789+00:00",
+                "last_updated": "2019-09-12T04:43:16.760789+00:00",
                 "state": "on"
             }
         }

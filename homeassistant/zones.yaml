@@ -15,13 +15,13 @@
   icon: mdi:home
 
 - name: Outside Liquor King
-  latitude: -41.293399
+  latitude: -41.295281
   longitude: 174.773497
   radius: 50
 
 - name: NW Willis Bus Stop
-  latitude: -41.287881
-  longitude: 174.775359
+  latitude: -41.287917
+  longitude: 174.775491
   radius: 50
   icon: mdi:supermarket
 

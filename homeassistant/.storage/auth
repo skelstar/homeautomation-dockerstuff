@@ -153,7 +153,7 @@
                 "created_at": "2019-08-13T03:35:25.522765+00:00",
                 "id": "3f8640b3d97748b2b83885984d64e263",
                 "jwt_key": "03d2c86dead9aa08fc89836acf2223fb26d384a7f3a20d6c30a01506bdf23105acbf00d92100ce2321aec624da219c8aa87b14a26954cf740edb1ae2237c219e",
-                "last_used_at": "2019-08-23T04:42:55.698351+00:00",
+                "last_used_at": "2019-09-19T04:38:36.143186+00:00",
                 "last_used_ip": "192.168.1.139",
                 "token": "5385dc97108868f6cc65bc3f2f051fd1a97cfad706b7a6ac3417f99632e874583e77a90bfa69272990f5fe5e41d20fc2f47a82cbe62cacbf87cff72156dbfb62",
                 "token_type": "normal",

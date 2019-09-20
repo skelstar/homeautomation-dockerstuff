@@ -849,7 +849,7 @@
   "node-red-contrib-maps": {
    "name": "node-red-contrib-maps",
    "version": "0.2.2",
-   "local": false,
+   "local": true,
    "nodes": {
     "maps": {
      "name": "maps",
@@ -860,6 +860,42 @@
      "local": true,
      "module": "node-red-contrib-maps",
      "file": "/data/node_modules/node-red-contrib-maps/maps/maps.js"
+    }
+   }
+  },
+  "node-red-contrib-web-worldmap": {
+   "name": "node-red-contrib-web-worldmap",
+   "version": "2.0.22",
+   "local": true,
+   "nodes": {
+    "worldmap": {
+     "name": "worldmap",
+     "types": [
+      "worldmap",
+      "worldmap in",
+      "worldmap-tracks"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-web-worldmap",
+     "file": "/data/node_modules/node-red-contrib-web-worldmap/worldmap.js"
+    }
+   }
+  },
+  "node-red-contrib-time-range-switch": {
+   "name": "node-red-contrib-time-range-switch",
+   "version": "0.6.1",
+   "local": true,
+   "nodes": {
+    "time-range-switch": {
+     "name": "time-range-switch",
+     "types": [
+      "time-range-switch"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-time-range-switch",
+     "file": "/data/node_modules/node-red-contrib-time-range-switch/index.js"
     }
    }
   }

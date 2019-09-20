@@ -6,6 +6,8 @@
     "dependencies": {
         "node-red-contrib-deconz": "~0.12.10",
         "node-red-contrib-maps": "~0.2.2",
+        "node-red-contrib-time-range-switch": "~0.6.1",
+        "node-red-contrib-web-worldmap": "~2.0.22",
         "node-red-dashboard": "~2.15.5",
         "node-red-node-pushbullet": "0.0.14"
     }
