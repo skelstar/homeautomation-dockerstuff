@@ -885,7 +885,7 @@
   "node-red-contrib-time-range-switch": {
    "name": "node-red-contrib-time-range-switch",
    "version": "0.6.1",
-   "local": false,
+   "local": true,
    "nodes": {
     "time-range-switch": {
      "name": "time-range-switch",
@@ -913,7 +913,7 @@
      "view-show-grid": true
     }
    },
-   "menu-menu-item-sidebar": true,
+   "menu-menu-item-sidebar": false,
    "menu-menu-item-palette": true
   }
  }
