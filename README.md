@@ -6,6 +6,11 @@
 - ![image](https://github.com/skelstar/homeautomation-dockerstuff/assets/16521921/3089056b-1e5d-4459-9a9e-57809b7e2c1e)
 
 # Setting up SD card (before booting)
+
+**NOTE: are you plugged into the ethernet port on the router?!?**
+
+Mac address: `B8:27:EB:53:DC:E0`
+
 - Search SD card (just burned and plugged out/in) for "STATIC" to set static ip
 - Set `AUTO_SETUP_TIMEZONE=Pacific/Auckland`
 - `AUTO_SETUP_NET_ETHERNET_ENABLED=0`
