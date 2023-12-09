@@ -5,7 +5,20 @@
 - run commands in this img
 - ![image](https://github.com/skelstar/homeautomation-dockerstuff/assets/16521921/3089056b-1e5d-4459-9a9e-57809b7e2c1e)
 
-# Setup
+# Setting up SD card (before booting)
+- Search SD card (just burned and plugged out/in) for "STATIC" to set static ip
+- Set `AUTO_SETUP_TIMEZONE=Pacific/Auckland`
+- `AUTO_SETUP_NET_ETHERNET_ENABLED=0`
+- `AUTO_SETUP_NET_WIFI_ENABLED=1`
+- `AUTO_SETUP_NET_USESTATIC=1`
+- `AUTO_SETUP_NET_STATIC_IP=192.168.1.105`
+- `AUTO_SETUP_NET_STATIC_MASK=255.255.255.0`
+- `AUTO_SETUP_NET_STATIC_GATEWAY=192.168.1.1`
+
+### Not trying yet!
+- Set `AUTO_SETUP_NET_HOSTNAME=HomeAutomation`
+- Set `AUTO_SETUP_HEADLESS=1`
+
 ```#---------------------------------------------------------------
 # Entry 0
 # - WiFi SSID: required, case sensitive
