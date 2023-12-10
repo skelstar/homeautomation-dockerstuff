@@ -11,6 +11,11 @@
   - `dietpi-launcher` to add drives
   - Added usb with launcher (named "cruzer")
   - (In `cruzer`) `git clone https://github.com/skelstar/homeautomation-dockerstuff.git`
+ 
+## Issues
+### Node-red
+> Error: EACCES: permission denied, copyfile '/usr/src/node-red/node_modules/node-red/settings.js' -> '/data/settings.js'
+-  https://github.com/node-red/node-red-docker/issues/221#issuecomment-1565956535
 
 
 ## When disk space full because of `/overlay2` folders being full 
