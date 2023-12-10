@@ -14,8 +14,6 @@ services:
     - ${DOCKERSTUFF_PATH}/portainer:/data
 
   nodered:
-    # image: nodered/node-red-docker:rpi
-    # image: nodered/node-red:2.2.3-12
     image: nodered/node-red
     container_name: nodered
     restart: unless-stopped
