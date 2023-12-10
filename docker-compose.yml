@@ -38,15 +38,6 @@ services:
     - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/config
     - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/data
     - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/log
-    
-  homeassistant:
-    container_name: home-assistant
-    image: homeassistant/raspberrypi3-homeassistant
-    network_mode: host
-    volumes:
-    - ${DOCKERSTUFF_PATH}/homeassistant:/config
-    - /etc/localtime:/etc/localtime:ro
-    restart: unless-stopped
 
  # https://hub.docker.com/r/marthoc/deconz/
   deconz:
