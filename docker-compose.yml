@@ -12,9 +12,11 @@ services:
     volumes:
     - /var/run/docker.sock:/var/run/docker.sock
     - ${DOCKERSTUFF_PATH}/portainer:/data
-    
+
   nodered:
-    image: nodered/node-red-docker:rpi
+    # image: nodered/node-red-docker:rpi
+    # image: nodered/node-red:2.2.3-12
+    image: nodered/node-red
     container_name: nodered
     restart: unless-stopped
     volumes:
@@ -24,17 +26,17 @@ services:
     - 9898:9898/udp
     depends_on:
     - mqtt
-    
+
   mqtt:
     image: eclipse-mosquitto
     container_name: mqtt
     restart: unless-stopped
-    ports: 
-    - 1883:1883 
-    - 9001:9001 
+    ports:
+    - 1883:1883
+    - 9001:9001
     volumes:
     - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/config
-    - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/data    
+    - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/data
     - ${DOCKERSTUFF_PATH}/mqtt/:/mosquitto/log
     
   homeassistant:
@@ -46,21 +48,7 @@ services:
     - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
 
-  # nginx:
-  #   image: linuxserver/nginx
-  #   container_name: nginx
-  #   environment:
-  #     - PUID=1000
-  #     - PGID=1000
-  #     - TZ=Pacific/Auckland
-  #   volumes:
-  #   - ${DOCKERSTUFF_PATH}/nginx:/config
-  #   ports:
-  #   - 80:80
-  #   - 443:443
-  #   restart: unless-stopped
-
-  # https://hub.docker.com/r/marthoc/deconz/
+ # https://hub.docker.com/r/marthoc/deconz/
   deconz:
     image: marthoc/deconz
     container_name: deconz
