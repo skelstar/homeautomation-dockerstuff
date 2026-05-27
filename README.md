@@ -1,3 +1,8 @@
+## ssh
+
+root@192.168.1.105
+pwd - all lowercase, usual
+
 ## Setup
 - Use DietPi: https://dietpi.com/docs/install/
 
